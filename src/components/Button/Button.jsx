@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button({ title }) {
 
-  handleClick = () => {
+  const handleClick = () => {
   }
 
   return (
