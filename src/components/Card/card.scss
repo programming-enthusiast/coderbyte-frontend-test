@@ -28,12 +28,14 @@
   &__question-number {
     text-align: center;
     color: gray;
+    font-family: 'SFCompactText-Semibold';
   }
 
   &__question {
     text-align: center;
     font-size: 36px;
     margin: 27px 120px 0 120px;
+    font-family: 'SFCompactText-Semibold';
   }
 
   &__body {

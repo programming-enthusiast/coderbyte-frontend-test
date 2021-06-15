@@ -7,7 +7,7 @@ function Card({questionId, question}) {
   return (
     <div className="card">
       <div className="card__video">
-      <ReactTwitchEmbedVideo width="100%" height="100%" channel="younestalksfootball" />
+      <ReactTwitchEmbedVideo width="100%" height="100%" channel="nedaz14/video/1057103313" />
       </div>
       <div className="card__header">
         <div className="card__question-number">
