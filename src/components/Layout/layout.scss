@@ -1,0 +1,23 @@
+.page {
+  position: relative;
+  background-image: linear-gradient(#5870F9, #8F4AFC);
+  width: 100vw;
+  height: 100vh;
+  min-width: 1440px;
+  min-height: 1000px;
+  display: flex;
+
+  &__honeycomb-background {
+    margin: auto;
+    width: 100%;
+    height: 571px;
+    background: url(../../assets/images/honeycomb_background.png);
+    background-repeat: repeat-x;
+  }
+
+  &__logo {
+    position: absolute;
+    left: 70px;
+    top: 61px;
+  }
+}

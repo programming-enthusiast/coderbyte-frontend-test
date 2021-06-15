@@ -1,0 +1,23 @@
+.button {
+  --button-color: #E3ECF7;
+
+  width: 252px;
+  height: 53px;
+  line-height: 53px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid var(--button-color);
+  border-radius: 27px;
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+
+  &:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em adjust-hue(#E3ECF7, 45deg);
+  }
+
+  &:active {
+    background-color: var(--button-color);
+  }
+}

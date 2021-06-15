@@ -1,0 +1,47 @@
+.card {
+  width: 720px;
+  height: 718px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  &__video {
+    width: 600px;
+    height: 337px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translate(-50%, 0);
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  &__header {
+    margin-top: 350px;
+    margin-bottom: 66px;
+  }
+
+  &__question-number {
+    text-align: center;
+    color: gray;
+  }
+
+  &__question {
+    text-align: center;
+    font-size: 36px;
+    margin: 27px 120px 0 120px;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 53px;
+    grid-row-gap: 20px;
+    grid-column-gap: 19px;
+    margin: 0 50px 0 50px;
+  }
+}
